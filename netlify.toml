@@ -4,6 +4,5 @@
 [functions]
   node_bundler = "esbuild"
 
-[[functions]]
-  function = "checkTweets"
+[functions.checkTweets]
   schedule = "* * * * *"
